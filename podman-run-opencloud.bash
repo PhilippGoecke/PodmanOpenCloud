@@ -3,7 +3,7 @@
 set -euo pipefail
 
 CONTAINER_NAME="${CONTAINER_NAME:-opencloud}"
-IMAGE="${IMAGE:-opencloudeu/opencloud-rolling:latest}"
+IMAGE="${IMAGE:-docker.io/opencloudeu/opencloud-rolling:latest}"
 HTTP_PORT="${HTTP_PORT:-9200}"
 OC_DOMAIN="${OC_DOMAIN:-localhost:${HTTP_PORT}}"
 ADMIN_PASSWORD="${ADMIN_PASSWORD:-admin}"
